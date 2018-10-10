@@ -5,7 +5,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     description="The backend for Coffee Project's mobile app.",
-    install_requires=["django >= 2.0"],
+    install_requires=["django >= 2.0", "Pillow"],
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
